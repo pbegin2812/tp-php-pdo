@@ -16,7 +16,9 @@
     <table border="1">
         <tr><th>Titre</th><th>Genre</th><th>Année</th><th>Note</th></tr>
         <?php
+            require 'connexion.php'
 
+            
         ?>
     </table>
 </body>

@@ -104,7 +104,7 @@ Identifiants MySQL :
 | Serveur       | Utilisateur | Mot de passe |
 |---------------|-------------|--------------|
 | MAMP          | `root`      | `root`       |
-| WAMP / XAMPP  | `root`      | *(vide)*     |
+| WAMP / XAMPP  | `root`      | *(vide)*     |x²
 
 ## 4. Consignes
 

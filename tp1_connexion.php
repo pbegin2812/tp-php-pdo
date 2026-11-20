@@ -10,5 +10,10 @@
 
   Expérience : remplacer "ludotheque" par "ludotek". Quel message obtenez-vous ?
 */
-
-?>
+try {
+  $base = new PDO('mysql:host=localhost;dbname=ludotheque;charset=utf8mb4', 'root', '');
+  $base->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+  echo " Connexion réussie !";
+} catch (PDOException $e) {
+  die('Erreur : ' . $e->getMessage());
+}
